@@ -13,4 +13,5 @@ value = ["A",2", "3","4",
            "J", "Q","K"]
  
     def __init__(self, color, icon,value):
-    self.value = value
+        super().__init__(color, icon)
+        self.value = value
